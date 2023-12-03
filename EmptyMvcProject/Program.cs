@@ -9,6 +9,8 @@ namespace EmptyMvcProject
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
 
+			builder.Services.AddHttpClient(); //добавили новый сервис
+
 			var app = builder.Build();
 
 			// Configure the HTTP request pipeline.
